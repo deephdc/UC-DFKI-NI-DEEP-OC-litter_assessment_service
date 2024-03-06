@@ -33,7 +33,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Update python packages
-# [!] Remember: DEEP API V2 only works with python>=3.6
 RUN python3 --version && \
     pip3 install --no-cache-dir --upgrade pip "setuptools<60.0.0" wheel
 
