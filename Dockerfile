@@ -10,7 +10,6 @@
 # [!] Note: For the Jenkins CI/CD pipeline, input args are defined inside the
 # Jenkinsfile, not here!
 
-
 ARG tag=2.9.1
 
 # Base image, e.g. tensorflow/tensorflow:2.9.1
